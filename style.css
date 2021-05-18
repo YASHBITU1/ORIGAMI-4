@@ -1,0 +1,39 @@
+h1{
+    color:skyblue;
+    background-color: red;
+}
+*{border: 2px solid orange;}
+
+.origami{
+    background-color: skyblue;
+    display:flex;
+    justify-content:list-item;
+    font-family: fantasy;
+   
+}
+.aboutus{
+    background-color: skyblue;
+  
+}
+.origami b{
+    position:absolute;
+   padding:20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   margin: 20px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:ghostwhite;
+}
+.origami:hover img{
+    transform: scale(1.2);
+}
+.origami:hover ol{
+  color:blue;
+}
+.origami:hover ul{
+    color:red;
+  }
